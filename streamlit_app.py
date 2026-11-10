@@ -31,5 +31,6 @@ st.write("B. How It Works Now")
 
 survey.multiselect("3.  Where do you usually look for workplace information? Tick all that apply", options=["Microsoft Teams", "Shared drives", "Email", "SharePoint/intranet", "Department folders", "Ask a colleague"])
 survey.radio("4. How easy is it to find the workplace information you need? Tick one.", options=["1 - Very difficult", "2", "3", "4", "5 - Very easy", "Not applicable"])
+survey.radio("5. How confident are you that the information you find is the latest or authoritative version? Tick one.", options=["1 - Very confident", "2", "3", "4", "5 - Very confident", "Not applicable"])
 
 
