@@ -29,7 +29,7 @@ survey.radio("2. How often do you look for policies, procedures, guides, forms o
 
 st.write("B. How It Works Now")
 
-survey.multiselect("3.  Where do you usually look for workplace information? Tick all that apply", options=[" Microsoft Teams", "Shared drives", "Email", "SharePoint/intranet", "Department folders", "Ask a colleague"])
-
+survey.multiselect("3.  Where do you usually look for workplace information? Tick all that apply", options=["Microsoft Teams", "Shared drives", "Email", "SharePoint/intranet", "Department folders", "Ask a colleague"])
+survey.radio("4. How easy is it to find the workplace information you need? Tick one.", options=["1 - Very difficult", "2", "3", "4", "5 - Very easy", "Not applicable"])
 
 
