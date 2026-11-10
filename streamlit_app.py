@@ -23,8 +23,13 @@ An alternativeresponse method can be provided where required. Responses will be 
 """)
 
 st.write("A. About You")
+
 survey.radio("1. Which option best describes your role? Tick one", options=["General employee/end user (I use information but do not manage it)", " Manager/team leader", "Information Management/Document Control", "IT/Digital", "HR/Learning and Development", "Governance/Quality/Compliance", "Other: ______________________________"])
 survey.radio("2. How often do you look for policies, procedures, guides, forms or training resources? Tick one.", options=["Daily", "A few times a week",  "Weekly", "Monthly", "Less often", "Never"])
-survey.multiselect("3.  Where do you usually look for workplace information? Tick all that apply", options=[" Microsoft Teams", "Shared drives", "Email", "SharePoint/intranet", "Department folders", "Ask a colleague"])
 
 st.write("B. How It Works Now")
+
+survey.multiselect("3.  Where do you usually look for workplace information? Tick all that apply", options=[" Microsoft Teams", "Shared drives", "Email", "SharePoint/intranet", "Department folders", "Ask a colleague"])
+
+
+
